@@ -1,0 +1,21 @@
+@media (min-width: 1920px){
+    .header{
+        .logo{
+            font-size: 48px !important;
+        }
+        .link{
+            font-size: 24px !important;
+        }
+    }
+}
+
+@media (max-width: 426px){
+    .header{
+        .list{
+            display: none !important;
+        }
+        .logo{
+            font-size: 24px !important;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+@forward './minmax.scss';
+
+.footer {
+    padding: 96px 32px 32px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito';
+
+    .connect {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: uppercase;
+    }
+
+    .social {
+        margin-top: 32px;
+        display: flex;
+        column-gap: 29px;
+
+        & a {
+            width: 50px;
+            height: 50px;
+            padding: 14px 12px;
+            background: rgba(57, 57, 57, 0.51);
+            border-radius: 100%;
+            text-align: center;
+        }
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: end;
+
+        & p {
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 21px;
+    column-gap: 65px;
+
+    & a {
+        font-size: 16px;
+        line-height: 16px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

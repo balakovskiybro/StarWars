@@ -1,0 +1,27 @@
+@media (min-width: 1920px){
+    .tabs{
+        button{
+            font-size: 32px !important;
+        }
+    }
+}
+
+@media (max-width: 1024px){
+    .tabs{
+        flex-direction: row !important;
+    }
+}
+
+@media (max-width: 768px){
+    .tabs{
+        button{
+            padding-right: 30px !important;
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .tabs{
+        overflow-y: auto;
+    }
+}

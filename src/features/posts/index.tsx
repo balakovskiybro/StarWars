@@ -1,0 +1,5 @@
+export {Films} from './ui/Films'
+export {Peoples} from './ui/Peoples'
+export {Starships} from './ui/Starships'
+export {Planets} from './ui/Planets'
+export {Vehicles} from './ui/Vehicles'

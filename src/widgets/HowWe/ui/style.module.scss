@@ -1,0 +1,57 @@
+@forward './minmax.scss';
+
+.how {
+    margin-top: 64px;
+    background: linear-gradient(rgba(5, 59, 163, 0), rgba(5, 59, 163, 1));
+    padding: 32px;
+    display: flex;
+    column-gap: 140px;
+
+    .title {
+        font-family: "Nunito";
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .descr {
+        margin-top: 64px;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .button {
+        margin-top: 64px;
+        background: white;
+        color: black;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        padding: 11px 43px;
+        border-radius: 20px;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .comp {
+        position: relative;
+        width: 727px;
+    }
+
+    .laptop {
+        position: absolute;
+        bottom: 0;
+        left: 35px;
+        width: 396px;
+    }
+
+    .phone {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+        width: 181px;
+    }
+
+}

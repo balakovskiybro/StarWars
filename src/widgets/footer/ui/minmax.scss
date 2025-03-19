@@ -1,0 +1,51 @@
+@media (min-width: 1920px) {
+    .footer {
+        .connect {
+            font-size: 24px !important;
+        }
+
+        .copyright {
+            & p {
+                font-size: 24px !important;
+                line-height: 30px !important;
+            }
+        }
+    }
+
+    .nav {
+        & a {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        display: block !important;
+        padding-top: 72px !important;
+
+        .copyright {
+            margin-top: 40px;
+        }
+    }
+
+    .nav {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .footer {
+        padding-top: 48px !important;
+
+        .social {
+            column-gap: 10px !important;
+        }
+    }
+
+    .nav {
+        display: none !important;
+    }
+}

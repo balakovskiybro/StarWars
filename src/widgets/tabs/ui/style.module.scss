@@ -1,0 +1,21 @@
+@forward './minmax.scss';
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  line-height: 100%;
+
+  button {
+    padding: 5.5px 76px 5.5px 0;
+    color: white;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: left;
+
+    &.active {
+      background: linear-gradient(90deg, rgba(5, 59, 163, 1), rgba(5, 59, 163, 0));
+    }
+  }
+
+}

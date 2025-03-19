@@ -1,0 +1,24 @@
+@forward './minmax.scss';
+
+.post {
+    display: flex;
+    column-gap: 32px;
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 32px;
+        justify-content: space-between;
+    }
+
+    .link {
+        width: 190px;
+        height: 150px;
+        background: linear-gradient(150deg, rgb(5, 59, 163), rgba(5, 59, 163, 0));
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,19 @@
+@forward './minmax.scss';
+
+.hero {
+    margin-top: 64px;
+    font-family: 'Nunito';
+    padding: 0 32px;
+
+    .title {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .row {
+        display: flex;
+        margin-top: 10px;
+        gap: 30px;
+        font-weight: 500;
+    }
+}

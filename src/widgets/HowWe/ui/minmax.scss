@@ -1,0 +1,92 @@
+@media (min-width: 1920px) {
+    .how {
+        margin-top: 100px !important;
+
+        .title {
+            font-size: 48px !important;
+        }
+
+        .descr {
+            font-size: 32px !important;
+            line-height: 38px !important;
+        }
+
+        .button {
+            font-size: 32px !important;
+            padding: 20px 60px !important;
+        }
+
+        .comp {
+            width: 1000px !important;
+        }
+
+        .laptop {
+            width: 600px !important;
+        }
+
+        .phone {
+            width: 300px !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .how {
+        display: block !important;
+
+        .content{
+            text-align: center;
+        }
+
+        .title {
+            font-size: 24px !important;
+        }
+
+        .descr {
+            margin-top: 32px !important;
+            font-size: 14px !important;
+            line-height: 20px !important;
+        }
+
+        .button{
+            margin-top: 32px !important;
+        }
+
+        .laptop {
+            left: 10% !important;
+        }
+
+        .phone {
+            right: 20% !important;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .how{
+        .comp{
+            width: 500px !important;
+        }
+        .laptop{
+            width: 300px !important;
+        }
+        .phone{
+            width: 160px !important;
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .how{
+        margin-top: 32px !important;
+        .comp{
+            width: 250px !important;
+        }
+        .laptop{
+            width: 150px !important;
+        }
+        .phone{
+            width: 100px !important;
+        }
+    }
+}
