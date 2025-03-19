@@ -23,6 +23,6 @@ SCSS модули для стилизации
  ![image](https://github.com/user-attachments/assets/73e94fc1-504d-4728-ab04-d31da445c63e)  
 Я добавил кэширование в PostService
  - Не было начальной страницы ('/'), сразу был переход на '/Films'
-   ![image](https://github.com/user-attachments/assets/c56c8e6d-6767-41a0-8993-0159017ef6da)
+   ![image](https://github.com/user-attachments/assets/c56c8e6d-6767-41a0-8993-0159017ef6da)  
    Принял решение менять состояние, а не страницы
 
